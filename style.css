@@ -1,4 +1,4 @@
-/* خلفية سوداء عميقة جداً */
+/* سواد مطلق وعميق */
 body {
     margin: 0;
     padding: 0;
@@ -7,44 +7,44 @@ body {
     justify-content: center;
     align-items: center;
     height: 100vh;
-    background-color: #050505; /* أسود غامق جداً */
-    font-family: 'Inter', system-ui, -apple-system, sans-serif;
+    background-color: #000000; /* أسود 100% */
+    font-family: 'Inter', -apple-system, sans-serif;
     overflow: hidden;
 }
 
-/* النص العلوي بشفافية 20% */
+/* كلمة سوبر انتلجنس: كبيرة، متوسطة الوضوح، وفخمة */
 .top-text {
-    color: rgba(255, 255, 255, 0.2); /* أبيض بتركيز 20% فقط */
-    font-size: 1.2rem;
-    font-weight: 300;
-    letter-spacing: 4px; /* تباعد الحروف يعطي طابع فخم */
+    color: rgba(255, 255, 255, 0.2); /* شفافية 20% كما طلبت */
+    font-size: 2.5rem; /* حجم كبير وملحوظ */
+    font-weight: 700; /* سمك متوسط إلى عريض */
+    letter-spacing: 8px; /* تباعد كبير بين الحروف للقوة */
     text-transform: uppercase;
-    margin-bottom: 40px;
+    margin-bottom: 50px;
     user-select: none;
+    text-align: center;
 }
 
-/* الزر بتصميم حاد وقوي */
+/* الزر المستطيل الدائري */
 .neo-button {
-    padding: 18px 50px;
-    font-size: 1rem;
+    padding: 20px 60px;
+    font-size: 1.1rem;
     font-weight: 600;
     color: #000000;
     background-color: #ffffff;
     border: none;
-    border-radius: 50px; /* مستطيل دائري */
+    border-radius: 50px;
     text-decoration: none;
     text-transform: uppercase;
     letter-spacing: 2px;
-    transition: all 0.4s cubic-bezier(0.165, 0.84, 0.44, 1);
-    box-shadow: 0 10px 30px rgba(255, 255, 255, 0.05);
+    transition: all 0.5s cubic-bezier(0.2, 1, 0.3, 1);
+    box-shadow: 0 0 20px rgba(255, 255, 255, 0.05);
 }
 
-/* تأثير التمرير (Hover) */
+/* تأثير عند تمرير الماوس */
 .neo-button:hover {
-    transform: translateY(-5px); /* يرتفع للأعلى قليلاً */
-    background-color: #ffffff;
-    box-shadow: 0 15px 40px rgba(255, 255, 255, 0.2);
-    letter-spacing: 4px; /* يتمدد النص عند الوقوف عليه */
+    transform: scale(1.05);
+    box-shadow: 0 0 30px rgba(255, 255, 255, 0.3);
+    letter-spacing: 5px;
 }
 
 .neo-button:active {
